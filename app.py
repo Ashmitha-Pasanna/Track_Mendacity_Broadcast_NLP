@@ -28,7 +28,7 @@ mysql.init_app(app)
  
 #  http://localhost:8000/
 
-@app.route('/', methods=['GET', 'POST'])
+@app.route('/', methods=['GET'])
 def login():
  # connect
     conn = pymysql.connect()
