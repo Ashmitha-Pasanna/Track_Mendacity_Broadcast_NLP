@@ -1,0 +1,57 @@
+.bg-nav {
+    background: #ff0084;
+    font-family: "vardhana",cursive;
+    background: -webkit-linear-gradient(to right, #33001b, #ff0084);
+    background: linear-gradient(to right, #33001b, #ff0084)
+}
+
+.mt-100{
+    margin-top: 100px;
+}
+
+.col-md-5 {
+    font-family:Georgia;
+    font-size: 7px;
+}
+
+.login-box {
+    height: 90%;
+    width: 60%;
+    border: 1px solid grey;
+    margin-left: 35%;
+    margin-top: 10%;
+    position: relative;
+    box-shadow: 21px 12px 24px 10px rgba(0, 0, 0, .5);
+    background: #dadada;
+}
+
+.login-header {
+    text-align: center;
+    font-family: "vardhana",cursive;
+    font-size: 35px;
+    background: linear-gradient(to bottom, #00bfff 0%, #0000ff 100%);
+    color: #fff;
+    position: relative;
+    box-shadow: 1px 3px 14px rgba(0, 0, 0, .5);
+}
+
+.login-body {
+    padding: 20px;
+    line-height: 2;
+}
+
+.msg {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+
+
+.main {
+    margin-top: 50px;
+}
+
