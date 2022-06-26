@@ -28,10 +28,10 @@ mysql.init_app(app)
  
 #  http://localhost:8000/
 
-@app.route('/', methods=['GET'])
+@app.route('/', methods=['GET','POST'])
 def login():
  # connect
-    conn = pymysql.connect()
+    conn = mysql.connect()
     cursor = conn.cursor(pymysql.cursors.DictCursor)
   
     # Output message if something goes wrong...
